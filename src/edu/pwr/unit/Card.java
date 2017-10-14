@@ -61,4 +61,13 @@ public class Card implements Comparable<Card> {
 		int oValue = (o.getSuite() - 1) * 13 + o.getValue() - 1;
 		return value - oValue;
 	}
+
+	@Override
+	public boolean equals(Object oth) {
+		if (!(oth instanceof Card))
+			return false;
+		Card o = (Card) oth;
+
+		return getSuite() == o.getSuite() && getValue() == o.getValue();
+	}
 }

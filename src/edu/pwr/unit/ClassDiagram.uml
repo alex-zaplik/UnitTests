@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="601.0">edu.pwr.unit.TestDeck</node>
+    <node x="249.0" y="623.0">edu.pwr.unit.TestDeckJUnit4</node>
+    <node x="185.8513888888889" y="233.0">edu.pwr.unit.Deck</node>
+    <node x="177.33657407407406" y="0.0">edu.pwr.unit.Card</node>
+    <node x="45.06574074074072" y="34.0">edu.pwr.unit.DeckType</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.pwr.unit.TestDeckJUnit4" target="edu.pwr.unit.Card">
+      <point x="76.33333333333331" y="-81.0" />
+      <point x="439.8333333333333" y="581.0" />
+      <point x="401.57361111111106" y="581.0" />
+      <point x="401.57361111111106" y="213.0" />
+      <point x="353.33657407407406" y="213.0" />
+      <point x="80.0" y="81.5" />
+    </edge>
+    <edge source="edu.pwr.unit.TestDeck" target="edu.pwr.unit.Card">
+      <point x="-45.80000000000001" y="-103.0" />
+      <point x="68.69999999999999" y="581.0" />
+      <point x="101.49907407407406" y="581.0" />
+      <point x="101.49907407407406" y="203.0" />
+      <point x="193.33657407407406" y="203.0" />
+      <point x="-80.0" y="81.5" />
+    </edge>
+    <edge source="edu.pwr.unit.TestDeckJUnit4" target="edu.pwr.unit.Deck">
+      <point x="0.0" y="-81.0" />
+      <point x="363.5" y="581.0" />
+      <point x="342.4763888888889" y="581.0" />
+      <point x="67.125" y="159.0" />
+    </edge>
+    <edge source="edu.pwr.unit.TestDeck" target="edu.pwr.unit.Deck">
+      <point x="91.6" y="-103.0" />
+      <point x="206.1" y="581.0" />
+      <point x="252.9763888888889" y="581.0" />
+      <point x="-22.375" y="159.0" />
+    </edge>
+    <edge source="edu.pwr.unit.TestDeck" target="edu.pwr.unit.DeckType">
+      <point x="-91.60000000000002" y="-103.0" />
+      <point x="22.899999999999977" y="581.0" />
+      <point x="52.46805555555551" y="581.0" />
+      <point x="52.46805555555551" y="213.0" />
+      <point x="61.73240740740738" y="213.0" />
+      <point x="-33.33333333333334" y="47.5" />
+    </edge>
+    <edge source="edu.pwr.unit.Deck" target="edu.pwr.unit.Card">
+      <point x="0.0" y="-159.0" />
+      <point x="275.3513888888889" y="213.0" />
+      <point x="257.33657407407406" y="213.0" />
+      <point x="-16.0" y="81.5" />
+    </edge>
+    <edge source="edu.pwr.unit.Deck" target="edu.pwr.unit.DeckType">
+      <point x="-35.80000000000001" y="-159.0" />
+      <point x="239.55138888888888" y="183.0" />
+      <point x="128.39907407407406" y="183.0" />
+      <point x="33.33333333333334" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="239.0" y="403.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

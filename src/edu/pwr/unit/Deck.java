@@ -61,13 +61,14 @@ public class Deck {
 	public void shuffleDeck(int times) {
 		Random rand = new Random();
 
-		for (int i = 0; i < times; i++)
+		for (int i = 0; i < times; i++) {
 			for (int j = 0; j < cards.length - topOffset; j++) {
 				int pick = rand.nextInt(cards.length - topOffset);
 				Card c = cards[j];
 				cards[j] = cards[pick];
 				cards[pick] = c;
 			}
+		}
 	}
 
 	public Card takeTop() {
@@ -79,8 +80,9 @@ public class Deck {
 	}
 
 	public void displayDeck() {
-		for (int i = 0; i < cards.length - topOffset; i++)
+		for (int i = 0; i < cards.length - topOffset; i++) {
 			System.out.println(cards[i]);
+		}
 	}
 
 	public Card[] getCards() {
