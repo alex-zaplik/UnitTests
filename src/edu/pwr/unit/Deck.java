@@ -96,6 +96,8 @@ public class Deck {
 	public static void main(String[] args) {
 		Deck d = new Deck(DeckType.STD);
 
+		int a = 4;
+
 		d.shuffleDeck(2);
 		d.displayDeck();
 		d.sortDeck();
