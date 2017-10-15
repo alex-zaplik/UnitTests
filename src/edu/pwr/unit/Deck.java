@@ -96,7 +96,7 @@ public class Deck {
 	public static void main(String[] args) {
 		Deck d = new Deck(DeckType.STD);
 
-		int a = 5; // test
+		int a = 6; // test
 
 		d.shuffleDeck(2);
 		d.displayDeck();
