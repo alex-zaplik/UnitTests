@@ -39,7 +39,7 @@ public class TestDeck extends TestCase {
 		assertNotSame(old, deck.getCards());
 	}
 
-	public void specificTest() {
+	public void testSpecific() {
 		Card beforeShuffleTop = deck.takeTop();
 		deck.shuffleDeck(7);
 		assertNotSame(beforeShuffleTop, deck.takeTop());
